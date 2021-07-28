@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+</head>
+<body>
+
+<ul>
+    <li><a th:href="@{/variables/string/} + 'gerardo morales'">un solo parametro</a></li>
+    <li><a th:href="@{/variables/strings/} + 'hola gerardo' + '/' + 979">con dos parametros</a></li>
+</ul>
+
+</body>
+</html>

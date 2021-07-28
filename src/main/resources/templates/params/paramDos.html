@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+</head>
+<body>
+
+<a th:href="@{/paramsEntrada/entradaUno(texto='Hola Gerardo')}">Valores con paso por URL</a>
+<br>
+<br>
+<a th:href="@{/paramsEntrada/entradaUno(texto='QUe tal Spring')}">Valores con paso por URL 2</a>
+<br>
+<br>
+<a th:href="@{/paramsEntrada/mix_param(texto='Mi numero de la suerte es -->',numero=784)}">Mas de dos parametros</a>
+<br>
+<br>
+<a th:href="@{/paramsEntrada/mix_param_dos(texto='Hola mundo',numero=84)}">Mas de dos parametros</a>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title th:text="${tituloPagina}"></title>
+</head>
+<body>
+
+
+<table th:if="${!mutableUsuario.isEmpty()}">
+    <thead>
+    <tr>
+        <th>Nombre</th>
+        <th>Apellidos</th>
+        <th>Correo electronico</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="var_usr:${mutableUsuario}">
+        <td th:text="${var_usr.getNombre()}"></td>
+        <td th:text="${var_usr.getApellidos()}"></td>
+        <td th:text="${var_usr.getE_mail()}"></td>
+    </tr>
+    </tbody>
+</table>
+
+
+</body>
+</html>
