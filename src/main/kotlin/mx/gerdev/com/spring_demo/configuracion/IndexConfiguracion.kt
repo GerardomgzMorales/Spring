@@ -29,8 +29,8 @@ class IndexConfiguracion {
 
     @Bean
     fun nuevaFuncion(): String {
-        var nombre = "Gerardo Morales"
-        return nombre
+        return "Gerardo Morales"
+        
     }
 
 }
