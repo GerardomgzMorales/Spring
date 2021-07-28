@@ -29,7 +29,7 @@ class IndexConfiguracion {
 
     @Bean
     fun nuevaFuncion(): String {
-        return ""
+        return "ruta add diferente"
     }
 
 }
