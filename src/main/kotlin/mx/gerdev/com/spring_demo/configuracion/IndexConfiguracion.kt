@@ -27,4 +27,9 @@ class IndexConfiguracion {
         return this.mensajePerfil
     }
 
+    @Bean
+    fun nuevaFuncion(): String {
+        return ""
+    }
+
 }
