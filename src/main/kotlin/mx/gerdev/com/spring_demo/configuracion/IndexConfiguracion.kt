@@ -29,7 +29,8 @@ class IndexConfiguracion {
 
     @Bean
     fun nuevaFuncion(): String {
-        return "ruta add diferente"
+        var nombre = "Gerardo Morales"
+        return nombre
     }
 
 }
