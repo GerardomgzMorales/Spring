@@ -30,7 +30,7 @@ class IndexConfiguracion {
     @Bean
     fun nuevaFuncion(): String {
         return "Gerardo Morales"
-        
+
     }
 
 }
