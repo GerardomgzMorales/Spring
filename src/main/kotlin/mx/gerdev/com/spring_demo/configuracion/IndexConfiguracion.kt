@@ -29,6 +29,8 @@ class IndexConfiguracion {
 
     @Bean
     fun nuevaFuncion(): String {
+        var estado = 22
+        estado += 2
         return "ruta add diferente"
     }
 
